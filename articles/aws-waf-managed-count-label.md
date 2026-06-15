@@ -184,7 +184,7 @@ fields @timestamp, httpRequest.uri
 
 ## 4. 最小再現 CDK（TypeScript）
 
-`aws-cdk-lib` の `aws_wafv2.CfnWebACL`（L1）で組みます。WAFv2 は L2 が薄いので L1 が素直です。
+`aws-cdk-lib` の `aws_wafv2.CfnWebACL`（L1）で組みます。WAFv2 は L2 が薄いので L1 が素直です。動く一式は [wistixsub/waf-count-label-cdk](https://github.com/wistixsub/waf-count-label-cdk) に置いてあります（`npm install && npx cdk synth` で CloudFormation を生成できます）。
 
 ```ts
 import { Stack, StackProps } from "aws-cdk-lib";
