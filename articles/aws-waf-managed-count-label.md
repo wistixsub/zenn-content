@@ -3,7 +3,7 @@ title: "AWS WAFのマネージドルールを「いきなりBlock」しないー
 emoji: "🛡️"
 type: "tech"
 topics: ["aws", "waf", "cdk", "security", "typescript"]
-published: false
+published: true
 ---
 
 ## はじめに
